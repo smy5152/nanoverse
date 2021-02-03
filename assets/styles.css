@@ -27,17 +27,21 @@ footer {
 }
 
 .footer-social {
-  font-size: 15px;
-  margin: 5px;
+  font-size: 20px;
+  margin: 7px;
+  padding-left: 15px;
   text-decoration: none;
-  color: beige;
+}
+
+.footer-social > a {
+  color: grey;
 }
 
 .footer-copyright {
-  margin: 5px;
-  margin-right: 10px;
+  margin: 7px;
   color: slategrey;
   font-size: 15px;
+  padding-right: 15px;
 }
 
 .footer-nav {
@@ -46,7 +50,8 @@ footer {
   width: 100%;
 }
 
-.footer-menu {
+.footer-menu,
+.footer-funnel {
   justify-content: space-evenly;
   display: flex;
   align-items: baseline;
@@ -58,17 +63,57 @@ footer {
   margin: 10px;
   padding: 20px;
 }
+
 .footer-menu-left,
 .footer-menu-right {
   cursor: pointer;
   display: flex;
-  /* justify-content: center; */
 }
+
+.footer-funnel-left,
+.footer-funnel-middle,
+.footer-funnel-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .footer-menu-left > *,
 .footer-menu-right > * {
   margin-right: 20px;
   font-weight: 700;
   font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer-funnel-left > *,
+.footer-funnel-middle > *,
+.footer-funnel-right > * {
+  margin: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.contact-font,
+.about-font {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.about-font {
+  flex-wrap: wrap;
+  width: 330px;
+}
+
+.info-email {
+  color: orangered;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: lowercase;
+  cursor: pointer;
 }
 
 .btn {
@@ -303,7 +348,8 @@ footer {
     margin: 20px;
   }
 
-  .footer-menu {
+  .footer-menu,
+  .footer-funnel {
     flex-direction: column;
     align-items: center;
   }
