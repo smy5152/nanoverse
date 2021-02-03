@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: DIRECTORY SEARCH AND LISTING - WEBSITE TEMPLATE
+# Project Name: DIRECTORY SEARCH AND LISTING - WEBSITE
 
-## CAPSTONE PROJECT - BUILD A COMPLETE HTML5 & CSS3 WEBSITE TEMPLATE
+## CAPSTONE PROJECT - BUILD A COMPLETE HTML5 & CSS3 WEBSITE
 
 Beaufitul responsive and mobile first web-page design is the future. With mobile devices and multiple size and input devices dominating and growing exponentially, this is going to be the front-end revolution.
 
@@ -31,7 +31,7 @@ Skills Revived & Learned:
 
 ## Live Demo
 
-[Live Demo Link](https://smy5152.github.io/)
+[Live Demo Link](https://smy5152.github.io/nanoverse/)
 
 ## Authors
 
