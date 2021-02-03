@@ -248,6 +248,10 @@ footer {
   font-weight: 700;
 }
 
+.input-search {
+  width: 90%;
+}
+
 .search-form {
   margin: 0 auto;
   text-align: left;

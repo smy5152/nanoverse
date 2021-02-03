@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Insert title here</title>
-    <script type="text/javascript"></script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Nanoverse</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
   </head>
+
   <body>
     <nav>
       <div class="black-top-bar">
@@ -18,39 +39,161 @@
       </div>
     </nav>
 
-    <form class="form-inline d-flex flex-column">
-      <div class="input-group mb-3 d-flex justify-content-center">
-        <div class="input-group-prepend">
-          <button
-            class="btn btn-outline-secondary dropdown-toggle h-75"
-            type="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            All Departments
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Keyboards</a>
-            <a class="dropdown-item" href="#">Mice</a>
-            <a class="dropdown-item" href="#">Headsets</a>
-            <div role="separator" class="dropdown-divider"></div>
+    <main>
+      <div class="spacer"></div>
+
+      <header></header>
+
+      <div class="spacer"></div>
+
+      <div class="main-section">
+        <div class="results-slider"></div>
+        <div class="spacer"></div>
+      </div>
+    </main>
+
+    <section class="upsell-section">
+      <!-- color strip 1 -->
+      <div class="upsell-color-strips bg-color-teal">
+        <div class="upsell-left-content">
+          <div class="upsell-line-one">
+            Over 10,000 students registered with us.
+          </div>
+          <div>Find a school by using our filtered search engine.</div>
+          <div>
+            <input
+              class="btn btn-warning btn-outline-secondary dropdown-toggle"
+              type="button"
+              value="Find A Course"
+            />
           </div>
         </div>
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Keywords"
-          style="color: black"
-        />
-        <div class="input-group-prepend">
-          <a href="./results.html" class=""
-            ><button class="btn btn-danger h-75" type="button">
-              SEARCH
-            </button></a
-          >
+        <div class="upsell-image"></div>
+      </div>
+      <!-- color strip 2-->
+
+      <div class="upsell-color-strips bg-color-slategray">
+        <div class="upsell-left-content">
+          <div class="upsell-line-one">
+            Over 10,000 students registered with us.
+          </div>
+          <div>Find a school by using our filtered search engine.</div>
+          <div>
+            <input
+              class="btn btn-primary btn-outline-secondary dropdown-toggle"
+              type="button"
+              value="Find A Course"
+            />
+          </div>
+        </div>
+        <div class="upsell-image"></div>
+      </div>
+      <!-- color strip 3 -->
+      <div class="upsell-color-strips bg-color-steelblue">
+        <div class="upsell-left-content">
+          <div class="upsell-line-one">
+            Over 10,000 students registered with us.
+          </div>
+          <div>Find a school by using our filtered search engine.</div>
+          <div>
+            <input
+              class="btn btn-secondary btn-outline-secondary dropdown-toggle text-color-white"
+              type="button"
+              value="Find A Course"
+            />
+          </div>
+        </div>
+        <div class="upsell-image"></div>
+      </div>
+    </section>
+
+    <section class="footer-nav">
+      <div class="footer-menu">
+        <div class="footer-menu-left">
+          <div>Home</div>
+          <div>Search</div>
+          <div>About Us</div>
+          <div>Advertise</div>
+        </div>
+        <div class="footer-logo">
+          <img src="favicon.png" alt="" />
+        </div>
+        <div class="footer-menu-right">
+          <div>Facebook</div>
+          <div>Twitter</div>
+          <div>Blog</div>
+          <div>Google +</div>
         </div>
       </div>
-    </form>
+    </section>
+
+    <section class="footer-nav">
+      <div class="footer-funnel">
+        <div class="footer-funnel-left">
+          <div>subscribe</div>
+          <!-- <div class="search-form"> -->
+          <form action="#" class="home-subscribe">
+            <div class="input-group input-group-preppend">
+              <input type="text" placeholder="you@example.com" />
+              <input
+                class="btn btn-secondary btn-outline-secondary dropdown-toggle text-color-white"
+                type="button"
+                value="SEND"
+              />
+            </div>
+          </form>
+          <!-- </div> -->
+        </div>
+        <div class="footer-funnel-middle">
+          <div>contact</div>
+          <div>
+            <div class="contact-font">Have a question or submission?</div>
+            <div class="info-email">info@nanoverse.com</div>
+          </div>
+        </div>
+        <div class="footer-funnel-right">
+          <div>About</div>
+          <div class="about-font">
+            Nanoverse is an online course search portal. It assists global
+            students in finding the best online courses using keywords.<span
+              class="info-email"
+            >
+              Learn more...
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-square mr-2"></i></a>
+        <a href="#"><i class="fab fa-twitter mr-2"></i></a>
+        <a href="#"><i class="fab fa-instagram mr-2"></i></a>
+        <a href="#"><i class="fab fa-tumblr mr-2"></i></a>
+        <a href="#"><i class="fab fa-linkedin mr-2"></i></a>
+      </div>
+      <div class="footer-copyright">
+        (c) NANOVERSE 2021. ALL RIGHTS RESERVED. POWERED BY SMYCROSOFT.COM LOVE
+        AND AWESOMENESS
+      </div>
+    </footer>
+
+    <!--   jQuery first, then Popper.js, then Bootstrap JS  -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
