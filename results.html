@@ -45,22 +45,105 @@
 
       <header>
         <div class="filter">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <input
-            class="search-button btn btn-danger"
-            type="button"
-            value="SEARCH"
-          />
-          <input
-            class="btn btn-warning btn-outline-secondary dropdown-toggle"
-            type="button"
-            value="Clear Filter"
-          />
+          <form class="form-items justify-content-center form-inline">
+            <input type="text" placeholder="COMPANY NAME*" required />
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                COURSE CONTENT
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Video</a>
+                <a class="dropdown-item" href="#">Audio</a>
+                <a class="dropdown-item" href="#">Text</a>
+                <a class="dropdown-item" href="#">Live Session</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                LEVEL
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Newbie</a>
+                <a class="dropdown-item" href="#">Intermediate</a>
+                <a class="dropdown-item" href="#">Advanced</a>
+                <a class="dropdown-item" href="#">Expert</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                TYPE
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Frontend</a>
+                <a class="dropdown-item" href="#">Backend</a>
+                <a class="dropdown-item" href="#">FullStack</a>
+                <a class="dropdown-item" href="#">Database</a>
+                <a class="dropdown-item" href="#">Networking</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                LANGUAGE
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">German</a>
+                <a class="dropdown-item" href="#">Spanish</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                CURRICULUM
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Self Paced</a>
+                <a class="dropdown-item" href="#">Project Work</a>
+                <a class="dropdown-item" href="#">Online Classrooms</a>
+              </div>
+            </div>
+
+            <input
+              class="search-button btn btn-danger"
+              type="button"
+              value="SEARCH"
+            />
+            <input
+              class="btn btn-warning btn-outline-secondary dropdown-toggle"
+              type="button"
+              value="Clear Filter"
+            />
+          </form>
         </div>
       </header>
 
