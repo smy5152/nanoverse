@@ -31,7 +31,7 @@ Skills Revived & Learned:
 
 ## Live Demo
 
-[Live Demo Link](https://smy5152.github.io/)
+[Live Demo Link](https://smy5152.github.io/nanoverse/)
 
 ## Authors
 
