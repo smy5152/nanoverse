@@ -19,7 +19,7 @@ header {
 
 footer {
   height: auto;
-  background: black;
+  background: rgb(41, 41, 41);
   width: 100%;
   justify-content: space-between;
   display: flex;
@@ -38,6 +38,37 @@ footer {
   margin-right: 10px;
   color: slategrey;
   font-size: 15px;
+}
+
+.footer-nav {
+  height: auto;
+  background: black;
+  width: 100%;
+}
+
+.footer-menu {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: baseline;
+  color: white;
+  padding: 10px;
+}
+
+.footer-logo {
+  margin: 10px;
+  padding: 20px;
+}
+.footer-menu-left,
+.footer-menu-right {
+  cursor: pointer;
+  display: flex;
+  /* justify-content: center; */
+}
+.footer-menu-left > *,
+.footer-menu-right > * {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .btn {
@@ -83,6 +114,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  color: white;
 }
 
 .upsell-left-content > * {
@@ -271,10 +303,10 @@ footer {
     margin: 20px;
   }
 
-  /* .upsell-image {
-    width: 200px;
-    height: 200px;
-  } */
+  .footer-menu {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
