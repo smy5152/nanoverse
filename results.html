@@ -22,6 +22,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/results.css" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
   </head>
@@ -29,7 +30,7 @@
   <body>
     <nav>
       <div class="black-top-bar">
-        <img class="site-logo" src="assets/image/site-logo.png" />
+        <img alt="logo" class="site-logo" src="assets/image/site-logo.png" />
         <div class="nav-right">
           <div>Courses</div>
           <div>About</div>
@@ -42,17 +43,186 @@
     <main>
       <div class="spacer"></div>
 
-      <header></header>
+      <header>
+        <div class="filter">
+          <form class="form-items justify-content-center form-inline">
+            <input type="text" placeholder="COMPANY NAME*" required />
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                COURSE CONTENT
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Video</a>
+                <a class="dropdown-item" href="#">Audio</a>
+                <a class="dropdown-item" href="#">Text</a>
+                <a class="dropdown-item" href="#">Live Session</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                LEVEL
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Newbie</a>
+                <a class="dropdown-item" href="#">Intermediate</a>
+                <a class="dropdown-item" href="#">Advanced</a>
+                <a class="dropdown-item" href="#">Expert</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                TYPE
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Frontend</a>
+                <a class="dropdown-item" href="#">Backend</a>
+                <a class="dropdown-item" href="#">FullStack</a>
+                <a class="dropdown-item" href="#">Database</a>
+                <a class="dropdown-item" href="#">Networking</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                LANGUAGE
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">German</a>
+                <a class="dropdown-item" href="#">Spanish</a>
+              </div>
+            </div>
+            <div class="btn-group">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle h-75"
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                CURRICULUM
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Self Paced</a>
+                <a class="dropdown-item" href="#">Project Work</a>
+                <a class="dropdown-item" href="#">Online Classrooms</a>
+              </div>
+            </div>
 
-      <div class="spacer"></div>
+            <input
+              class="search-button btn btn-danger"
+              type="button"
+              value="SEARCH"
+            />
+            <input
+              class="btn btn-warning btn-outline-secondary dropdown-toggle"
+              type="button"
+              value="Clear Filter"
+            />
+          </form>
+        </div>
+      </header>
 
-      <div class="main-section">
-        <div class="results-slider"></div>
+      <div class="search-result-title">
+        Search Results Found 7 Course Provider(s).
+      </div>
+
+      <div class="main-results">
+        <div class="results-grid">
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Microverse University</div>
+                <div>Software Development</div>
+                <div>(6 courses)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Linux Foundation X</div>
+                <div>Professional Certificate</div>
+                <div>(3 courses)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>UBCx</div>
+                <div>Software Development Capstone</div>
+                <div>(Course)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Micromaster University</div>
+                <div>Software Development</div>
+                <div>(6 courses)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Micromaster University</div>
+                <div>Software Development</div>
+                <div>(6 courses)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Micromaster University</div>
+                <div>Software Development</div>
+                <div>(6 courses)</div>
+              </div>
+            </a>
+          </div>
+          <div class="result-card">
+            <a class="discovery-card-link" href="./course.html">
+              <div class="card-hero">
+                <div>Micromaster University</div>
+                <div>Software Development</div>
+                <div>(6 courses)</div>
+              </div>
+            </a>
+          </div>
+        </div>
         <div class="spacer"></div>
       </div>
     </main>
 
     <section class="upsell-section">
+      <h6 class="d-none">upsell-section</h6>
       <!-- color strip 1 -->
       <div class="upsell-color-strips bg-color-teal">
         <div class="upsell-left-content">
@@ -108,6 +278,7 @@
     </section>
 
     <section class="footer-nav">
+      <h6 class="d-none">footer-nav</h6>
       <div class="footer-menu">
         <div class="footer-menu-left">
           <div>Home</div>
@@ -116,7 +287,7 @@
           <div>Advertise</div>
         </div>
         <div class="footer-logo">
-          <img src="favicon.png" alt="" />
+          <img src="favicon.png" alt="favicon" />
         </div>
         <div class="footer-menu-right">
           <div>Facebook</div>
@@ -128,6 +299,7 @@
     </section>
 
     <section class="footer-nav">
+      <h6 class="d-none">footer-nav</h6>
       <div class="footer-funnel">
         <div class="footer-funnel-left">
           <div>subscribe</div>

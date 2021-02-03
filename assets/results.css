@@ -1,0 +1,81 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-results {
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filter {
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: grey;
+}
+
+.form-items {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.form-items > * {
+  margin-right: 5px;
+  opacity: 80%;
+}
+
+.results-grid {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr;
+  margin: 50px;
+}
+
+.result-card {
+  padding: 5px;
+}
+
+.card-hero {
+  width: 100%;
+  height: 300px;
+  background-image: url(image/micromaster.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.card-hero > div {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.search-result-title {
+  font-size: 30px;
+  color: black;
+  opacity: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .results-grid {
+    grid-template: 1fr / 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .results-grid {
+    grid-template: 1fr / 1fr;
+  }
+}
