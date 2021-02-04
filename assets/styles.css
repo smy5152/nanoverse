@@ -13,9 +13,9 @@ nav {
   z-index: 99;
 }
 
-header {
+/* header {
   background-image: url(assets);
-}
+} */
 
 footer {
   height: auto;
@@ -109,7 +109,7 @@ footer {
 }
 
 .info-email {
-  color: orangered;
+  color: rgb(212, 86, 74);
   font-size: 15px;
   font-weight: 400;
   text-transform: lowercase;
@@ -203,18 +203,21 @@ footer {
 
 .black-top-bar {
   height: 50px;
-  background: black;
+  background: rgb(212, 86, 74);
   width: 100%;
   display: flex;
   justify-content: space-between;
-  opacity: 80%;
+  /* opacity: 80%; */
   padding: 10px;
 }
 
 .site-logo {
-  height: 20px;
+  height: 25px;
   margin-left: 20px;
   margin-top: 5px;
+  background-color: black;
+  border-radius: 7px;
+  border: 1px solid black;
 }
 
 .nav-right {
@@ -224,6 +227,7 @@ footer {
   color: white;
   padding-right: 10px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .nav-right > div {
@@ -249,7 +253,7 @@ footer {
 }
 
 .input-search {
-  width: 90%;
+  width: 85%;
 }
 
 .search-form {
@@ -285,7 +289,7 @@ footer {
 
 .body-caption {
   grid-column: 1/5;
-  color: orangered;
+  color: rgb(212, 86, 74);
   text-transform: uppercase;
   font-weight: 800;
   font-size: 20px;

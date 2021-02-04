@@ -9,7 +9,7 @@ The website aims to be a layout concept for a directory search and results listi
 
 Beaufitul responsive and mobile first web-page design is the future. With mobile devices and multiple size and input devices dominating and growing exponentially, this is going to be the front-end revolution. The mockups show how lovely the designs scale to work on multiple devices with varying width and viewports.
 
-Skills Revived & Learned:
+## Skills Revived & Learned:
 
 - Versioning & best coding practices, Github Flow.
 - HTML5, CSS3 elements, semantics, features etc.
@@ -18,7 +18,7 @@ Skills Revived & Learned:
 - Self Monitoring & reliable project deliverables on due time, being focused, accountable.
 - Ability to work independently and ask for help after due self research when needed.
 
-> Learning Goals:
+### Learning Goals:
 
 - Version Control, Github Flow
 - Application HTML5, CSS3, Bootstrap.
@@ -34,6 +34,23 @@ Skills Revived & Learned:
 - Major languages: HTML5, CSS3
 - Frameworks: Bootstrap, Github flow
 - Technologies used: Responsive Web Design
+
+## Steps to Clone/Customize the Website Template
+
+- Download/Clone/Fork the Repo
+- Double Click the index.html and choose a default browser if it your Operating System does not automatically choose one. (Usually Chrome, Edge, Firefox etc)
+
+### To continue customizing:
+
+- index.html - is the main and first page that your website visitors will view
+- results.html - you have filters to customize your search results & this is also is where the SEARCH results based on the KEYWORD enterd on the home page are listed
+- course.html - when you select a preferred search result you can view additional detail about the course, the course provider, contact and location etc.
+
+### To modify the Theme & Colors/Fonts
+
+- index.html - stylex.css lists the landing page CSS
+- results.html - results.css lists the landing page CSS
+- course.html - course.css lists the landing page CSS
 
 ## Live Demo
 
