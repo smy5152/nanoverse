@@ -1,24 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: DIRECTORY SEARCH AND LISTING - WEBSITE
+# Project Name: DIRECTORY SEARCH AND LISTING - WEBSITE LAYOUT
+
+Visitors are expected to use this as a Directory service website to shortlist matching schools to take Software and IT related courses.
+The website aims to be a layout concept for a directory search and results listing page for finding information. I have implemented the concept for Online Software Development Courses & Results list shortlisted/filtered online schools that are detailed further when you view one result card. There are placeholders to include ratings, ranking, locations, application process, website, contact info & Map gps location.
 
 ## CAPSTONE PROJECT - BUILD A COMPLETE HTML5 & CSS3 WEBSITE
 
-Beaufitul responsive and mobile first web-page design is the future. With mobile devices and multiple size and input devices dominating and growing exponentially, this is going to be the front-end revolution.
+Beaufitul responsive and mobile first web-page design is the future. With mobile devices and multiple size and input devices dominating and growing exponentially, this is going to be the front-end revolution. The mockups show how lovely the designs scale to work on multiple devices with varying width and viewports.
 
 Skills Revived & Learned:
 
 - Versioning & best coding practices, Github Flow.
 - HTML5, CSS3 elements, semantics, features etc.
-- Cloning - the hard work and skills needed to successfully make a clone.
 - Linter - install & fix errors
 - Collaborative learning, being patient, helping each other succeed.
-- Attending Daily standup, being focused, accountable.
+- Self Monitoring & reliable project deliverables on due time, being focused, accountable.
+- Ability to work independently and ask for help after due self research when needed.
 
 > Learning Goals:
 
 - Version Control, Github Flow
-- Introduction to HTML5, CSS3, Bootstrap.
+- Application HTML5, CSS3, Bootstrap.
 - Position, Flex, Grid, Floats, RWD
 
 ![screenshot](assets/mockup1.png)
@@ -29,7 +32,7 @@ Skills Revived & Learned:
 ## Built With
 
 - Major languages: HTML5, CSS3
-- Frameworks: Bootstrap, Github flow, Mobile First Approach
+- Frameworks: Bootstrap, Github flow
 - Technologies used: Responsive Web Design
 
 ## Live Demo
@@ -53,6 +56,9 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - Learning
+- You can access all the design info (layouts) in this link:
+  [https://www.behance.net/gallery/25563385/PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)
+- Design idea by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
 
 ## 📝 License
 
