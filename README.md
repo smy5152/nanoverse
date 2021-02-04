@@ -21,7 +21,10 @@ Skills Revived & Learned:
 - Introduction to HTML5, CSS3, Bootstrap.
 - Position, Flex, Grid, Floats, RWD
 
-![screenshot](assets/images/)
+![screenshot](mockup1.png)
+![screenshot](mockup2.png)
+![screenshot](mockup3.png)
+![screenshot](mockup4.png)
 
 ## Built With
 
