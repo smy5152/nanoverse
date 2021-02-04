@@ -389,6 +389,12 @@ footer {
 }
 
 @media (max-width: 640px) {
+  .black-top-bar {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+  }
   .upsell-image {
     width: 275px;
     height: auto;
