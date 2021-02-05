@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,15 +59,22 @@ footer {
   padding: 10px;
 }
 
+.footer-menu {
+  justify-content: center;
+}
+
 .footer-logo {
-  margin: 10px;
   padding: 20px;
+  border: 1px solid rgba(175, 175, 175, 0.479);
+  border-radius: 50%;
 }
 
 .footer-menu-left,
 .footer-menu-right {
   cursor: pointer;
   display: flex;
+  border-top: 1px solid rgba(175, 175, 175, 0.479);
+  border-bottom: 1px solid rgba(175, 175, 175, 0.479);
 }
 
 .footer-funnel-left,
@@ -76,9 +87,10 @@ footer {
 
 .footer-menu-left > *,
 .footer-menu-right > * {
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
@@ -87,7 +99,7 @@ footer {
 .footer-funnel-right > * {
   margin: 20px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -168,15 +180,15 @@ footer {
 }
 
 .bg-color-teal {
-  background-color: teal;
+  background-color: rgb(212, 86, 74);
 }
 
 .bg-color-slategray {
-  background-color: slategray;
+  background-color: #99a4a5;
 }
 
 .bg-color-steelblue {
-  background-color: steelblue;
+  background-color: #519cd7;
 }
 
 .grid-container-2 {
@@ -210,9 +222,6 @@ footer {
   height: 25px;
   margin-left: 20px;
   margin-top: 5px;
-  background-color: black;
-  border-radius: 7px;
-  border: 1px solid black;
 }
 
 .nav-right {
@@ -351,14 +360,27 @@ footer {
     margin: 20px;
   }
 
-  .footer-menu,
-  .footer-funnel {
+  .footer-funnel,
+  .footer-menu-left,
+  .footer-menu-right {
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    border-bottom: none;
+  }
+
+  .footer-border-1024 {
+    border-bottom: 1px solid rgba(175, 175, 175, 0.479);
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .input-search {
     width: 70%;
+  }
+
+  .menu-text {
+    display: none;
   }
 }
 
