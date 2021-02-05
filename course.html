@@ -22,6 +22,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/course.css" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
   </head>
@@ -55,121 +56,106 @@
     </nav>
 
     <main>
-      <header>
-        <div class="hero">
-          <div class="grid-container">
-            <div class="search-content">
-              <div class="caption">
-                Nanoverse... your gateway to software development courses
-                online.
-              </div>
-              <div class="search-form">
-                <form action="./results.html" class="home-search">
-                  <div>Search by Keyword</div>
-                  <div class="d-flex input-group input-group-append">
-                    <input class="input-search" type="text" />
-                    <button
-                      class="search-button btn btn-danger"
-                      type="button"
-                      onclick="window.location.href='./results.html'"
-                    >
-                      SEARCH
-                    </button>
-                  </div>
-                </form>
-              </div>
-              <div>
-                <input
-                  class="how-it-works btn btn-info btn-outline-secondary dropdown-toggle"
-                  type="button"
-                  value="How it Works?"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <div class="spacer"></div>
-
-      <div class="main-section">
-        <div class="grid-container-2">
-          <div class="body-caption">Nano verse works in 4 simple steps.</div>
-          <div class="two-steps-one layout">
-            <div class="one-step">
-              <img
-                alt="steps"
-                class="steps-svg"
-                src="assets/image/svg/swimming21.svg"
-              />
-              <div class="steps-title">1. SEARCH:</div>
-              <div class="steps-content">
-                It's simple. On the Nanoverse homepage, enter the keyword for
-                the Course you are looking for and click SEARCH. Alternatively,
-                click on the links on the top menu to view the list of all
-                courses.
-              </div>
+      <div class="spacer"></div>
+      <section class="course-section">
+        <h2 class="d-none">Course Card</h2>
+        <div class="course-result-card">
+          <div class="course-result-title">
+            <a href="./index.html">
+              <img alt="favicon" src="favicon.png" />
+            </a>
+            <div>&nbsp;Nanoverse University</div>
+          </div>
+          <div class="course-grid">
+            <div class="filters">
+              COURSE CONTENT: <span class="filter-text">Video</span>
             </div>
-            <div class="one-step">
-              <img
-                alt="steps"
-                class="steps-svg"
-                src="assets/image/svg/car72.svg"
-              />
-              <div class="steps-title">2. ENROLL:</div>
-              <div class="steps-content">
-                It's simple. On the Nanoverse homepage, enter the keyword for
-                the Course you are looking for and click SEARCH. Alternatively,
-                click on the links on the top menu to view the list of all
-                courses.
-              </div>
+            <div class="filters">
+              LEVEL: <span class="filter-text">Intermediate</span>
+            </div>
+            <div class="filters">
+              TYPE: <span class="filter-text">Fullstack</span>
+            </div>
+            <div class="filters">
+              LANGUAGE: <span class="filter-text">English</span>
+            </div>
+            <div class="filters">
+              CURRICULUM: <span class="filter-text">Self-Paced</span>
+            </div>
+            <div class="filters">
+              COUNTRY: <span class="filter-text">Canada</span>
+            </div>
+            <div class="filters">
+              EMAIL: <span class="filter-text">info@nanoverse.com</span>
+            </div>
+            <div class="filters">
+              RATING:<span class="filter-text">A+</span>
             </div>
           </div>
-          <div class="two-steps-two layout">
-            <div class="one-step">
-              <img
-                alt="steps"
-                class="steps-svg"
-                src="assets/image/svg/bicycle14.svg"
-              />
-              <div class="steps-title">3. COMPLETE:</div>
-              <div class="steps-content">
-                It's simple. On the Nanoverse homepage, enter the keyword for
-                the Course you are looking for and click SEARCH. Alternatively,
-                click on the links on the top menu to view the list of all
-                courses.
-              </div>
+          <div class="apply-btn">
+            <button class="btn btn-info btn-outline-secondary" type="button">
+              <i class="fa fa-envelope"></i>
+              APPLY
+            </button>
+          </div>
+          <div class="course-nav">
+            <div class="course-nav-items"><i class="fa fa-phone"></i> tel:</div>
+            <div class="course-nav-items">
+              <i class="fa fa-list-alt"></i>website:
+              <span class="course-nav-items-text">nv.com</span>
             </div>
-            <div class="one-step">
-              <img
-                alt="steps"
-                class="steps-svg"
-                src="assets/image/svg/cup74.svg"
-              />
-              <div class="steps-title">4. CERTIFIED:</div>
-              <div class="steps-content">
-                It's simple. On the Nanoverse homepage, enter the keyword for
-                the Course you are looking for and click SEARCH. Alternatively,
-                click on the links on the top menu to view the list of all
-                courses.
-              </div>
+            <div class="course-nav-items">
+              <i class="fa fa-users"></i> students enrolled:
+              <span class="course-nav-items-text">100</span>
+            </div>
+            <div class="course-nav-items">
+              <i class="fa fa-bus"></i>transport:
+              <span class="course-nav-items-text">yes</span>
+            </div>
+            <div class="course-nav-items">
+              <i class="fa fa-eur"></i>student support:
+              <span class="course-nav-items-text">yes</span>
             </div>
           </div>
         </div>
-
-        <div class="spacer"></div>
-      </div>
+        <article>
+          <div class="mt-5"></div>
+          <h3 class="d-none">Details</h3>
+          <p>
+            "Nanoverse’s immersive, full-time structure assures that you
+            continuously push yourself to your full potential. Every day, you’ll
+            complete a coding challenge with your stand-up team and then
+            continue learning with your coding partner through remote pair
+            programming while developing valuable skills that employers look for
+            in candidates."
+          </p>
+        </article>
+        <div class="more-details">
+          <i class="fa fa-arrow-right pr-1"></i>
+          <i class="fa fa-bars pr-1"></i>
+          click to view more details.
+        </div>
+        <div class="map-title">map directions.</div>
+        <img class="map-img" alt="map" src="assets/image/map-shot.jfif" />
+      </section>
+      <div class="spacer"></div>
     </main>
 
     <section class="upsell-section">
       <h2 class="d-none">upsell-section</h2>
-      <!-- color strip 3 -->
+      <!-- color strip 1 -->
       <div class="upsell-color-strips bg-color-teal">
         <div class="upsell-left-content">
           <div class="upsell-line-one">
             Over 10,000 students registered with us.
           </div>
-          <div>Find a school by using our filtered search engine.</div>
+          <article>
+            <h3 class="d-none">
+              Find a school by using our filtered search engine.
+            </h3>
+            <div>Find a school by using our filtered search engine.</div>
+          </article>
           <div>
             <input
               class="btn btn-warning btn-outline-secondary dropdown-toggle"
@@ -187,12 +173,7 @@
           <div class="upsell-line-one">
             Over 10,000 students registered with us.
           </div>
-          <article>
-            <h3 class="d-none">
-              Find a school by using our filtered search engine.
-            </h3>
-            <div>Find a school by using our filtered search engine.</div>
-          </article>
+          <div>Find a school by using our filtered search engine.</div>
           <div>
             <input
               class="btn btn-primary btn-outline-secondary dropdown-toggle"
@@ -223,7 +204,7 @@
     </section>
 
     <section class="footer-nav">
-      <h2 class="d-none">footer</h2>
+      <h2 class="d-none">footer-nav</h2>
       <div class="footer-menu">
         <div class="footer-menu-left">
           <div>Home</div>
@@ -232,9 +213,7 @@
           <div>Advertise</div>
         </div>
         <div class="footer-logo">
-          <a href="./index.html">
-            <img alt="favicon" src="favicon.png" />
-          </a>
+          <img src="favicon.png" alt="favicon" />
         </div>
         <div class="footer-menu-right">
           <div>Facebook</div>
@@ -247,7 +226,7 @@
     </section>
 
     <section class="footer-nav">
-      <h6 class="d-none">footer-nav</h6>
+      <h2 class="d-none">footer-nav</h2>
       <div class="footer-funnel">
         <div class="footer-funnel-left">
           <div>subscribe</div>

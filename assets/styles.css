@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -11,10 +15,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 99;
-}
-
-header {
-  background-image: url(assets);
+  box-shadow: 0 3px 10px 1px;
 }
 
 footer {
@@ -59,15 +60,22 @@ footer {
   padding: 10px;
 }
 
+.footer-menu {
+  justify-content: center;
+}
+
 .footer-logo {
-  margin: 10px;
   padding: 20px;
+  border: 1px solid rgba(175, 175, 175, 0.479);
+  border-radius: 50%;
 }
 
 .footer-menu-left,
 .footer-menu-right {
   cursor: pointer;
   display: flex;
+  border-top: 1px solid rgba(175, 175, 175, 0.479);
+  border-bottom: 1px solid rgba(175, 175, 175, 0.479);
 }
 
 .footer-funnel-left,
@@ -80,9 +88,10 @@ footer {
 
 .footer-menu-left > *,
 .footer-menu-right > * {
-  margin-right: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
@@ -91,7 +100,7 @@ footer {
 .footer-funnel-right > * {
   margin: 20px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
   align-items: center;
 }
@@ -109,7 +118,7 @@ footer {
 }
 
 .info-email {
-  color: orangered;
+  color: rgb(212, 86, 74);
   font-size: 15px;
   font-weight: 400;
   text-transform: lowercase;
@@ -172,15 +181,15 @@ footer {
 }
 
 .bg-color-teal {
-  background-color: teal;
+  background-color: rgb(212, 86, 74);
 }
 
 .bg-color-slategray {
-  background-color: slategray;
+  background-color: #99a4a5;
 }
 
 .bg-color-steelblue {
-  background-color: steelblue;
+  background-color: #519cd7;
 }
 
 .grid-container-2 {
@@ -203,16 +212,15 @@ footer {
 
 .black-top-bar {
   height: 50px;
-  background: black;
+  background: rgb(212, 86, 74);
   width: 100%;
   display: flex;
   justify-content: space-between;
-  opacity: 80%;
   padding: 10px;
 }
 
 .site-logo {
-  height: 20px;
+  height: 25px;
   margin-left: 20px;
   margin-top: 5px;
 }
@@ -224,6 +232,7 @@ footer {
   color: white;
   padding-right: 10px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .nav-right > div {
@@ -249,7 +258,7 @@ footer {
 }
 
 .input-search {
-  width: 90%;
+  width: 85%;
 }
 
 .search-form {
@@ -285,7 +294,7 @@ footer {
 
 .body-caption {
   grid-column: 1/5;
-  color: orangered;
+  color: rgb(212, 86, 74);
   text-transform: uppercase;
   font-weight: 800;
   font-size: 20px;
@@ -352,14 +361,27 @@ footer {
     margin: 20px;
   }
 
-  .footer-menu,
-  .footer-funnel {
+  .footer-funnel,
+  .footer-menu-left,
+  .footer-menu-right {
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    border-bottom: none;
+  }
+
+  .footer-border-1024 {
+    border-bottom: 1px solid rgba(175, 175, 175, 0.479);
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .input-search {
     width: 70%;
+  }
+
+  .menu-text {
+    display: none;
   }
 }
 
@@ -386,6 +408,13 @@ footer {
 }
 
 @media (max-width: 640px) {
+  .black-top-bar {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    height: 100px;
+  }
+
   .upsell-image {
     width: 275px;
     height: auto;
