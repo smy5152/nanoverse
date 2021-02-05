@@ -8,15 +8,16 @@ body {
 
 .course-section {
   margin: 0 auto;
-  width: 400px;
+  width: 470px;
 }
 
 .course-result-card {
-  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 3px 10px 1px;
 }
 
 .course-result-title {
-  opacity: 70%;
+  opacity: 80%;
   justify-content: flex-start;
   display: flex;
 }
@@ -38,12 +39,19 @@ body {
   align-items: center;
   vertical-align: middle;
   border-radius: 2px;
-  font-size: small;
+  font-size: 11px;
   color: black;
+  font-weight: 700;
+}
+
+.filter-text {
+  font-size: 10px;
+  padding: 5px;
+  color: cornflowerblue;
 }
 
 .apply-btn {
-  margin: 10px;
+  margin: 5px;
   display: flex;
   justify-content: flex-end;
 }
@@ -57,21 +65,26 @@ body {
 .course-nav-items {
   border-right: 1px solid black;
   font-size: 9px;
-  margin-right: 1px;
-  padding-right: 1px;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.course-nav-items-text {
+  color: cornflowerblue;
 }
 
 .more-details {
-  background-color: slategrey;
-  opacity: 70%;
+  background-color: darkgrey;
+  opacity: 90%;
   font-weight: 800;
   font-size: large;
   text-transform: uppercase;
   height: 40px;
   vertical-align: middle;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 
 .map-title {

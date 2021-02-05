@@ -15,6 +15,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 99;
+  box-shadow: 0 3px 10px 1px;
 }
 
 footer {
@@ -87,8 +88,8 @@ footer {
 
 .footer-menu-left > *,
 .footer-menu-right > * {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 35px;
+  margin-left: 35px;
   font-weight: 700;
   font-size: 17px;
   text-transform: uppercase;
